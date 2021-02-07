@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+
+		<!-- Additional styles -->
+		<link rel="stylesheet" href="docker.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<section>
+						<h1>Docker</h1>
+					</section>
+					<section>
+					Prerequisites</br>
+					<ul>
+						<li>
+							<a href='https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps'>Windows 10 with WSL 2</a>
+						</li>
+						<li>
+							<a href='https://docs.docker.com/docker-for-windows/install-windows-home/'>Docker Desktop</a>
+						</li>
+						<li>
+							<a href='https://www.microsoft.com/pl-pl/p/windows-terminal/9n0dx20hk701'>Windows Terminal</a> (or other)
+						</li>
+					</ul>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>

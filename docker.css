@@ -1,0 +1,13 @@
+.reveal-viewport {
+    background: rgb(3, 31, 48);
+    background-color: rgb(3, 31, 48); 
+}
+  
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    color: rgb(38, 151, 237);
+}
