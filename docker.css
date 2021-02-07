@@ -1,0 +1,48 @@
+.reveal {
+    font-size: 30px;
+}
+
+.reveal-viewport {
+    background: rgb(15, 28, 36);
+    background-color: rgb(15, 28, 36); 
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    color: rgb(38, 151, 237);
+}
+
+p {
+    text-align: left; 
+}
+
+ul {
+    width: 100%;
+    text-align: left; 
+}
+
+.codeblock > button {
+    font-size: 1rem; 
+}
+
+li .codeblock {
+    width: 95%;
+}
+
+.listing {
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: rgb(3, 31, 48);
+    color: #ddd;
+  }
+  
